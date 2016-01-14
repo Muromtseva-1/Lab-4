@@ -1,0 +1,215 @@
+"C:\Program Files\Java\jdk1.8.0_65\bin\java" "-Dmaven.home=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.1\plugins\maven\lib\maven3" "-Dclassworlds.conf=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.1\plugins\maven\lib\maven3\bin\m2.conf" -Didea.launcher.port=7534 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.1\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=15.0.1 clean validate compile test package verify install site deploy
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for ru.spb.herzen.ivt3:Muromtseva-lab-4:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 41, column 15
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Muromtseva-lab-4 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ Muromtseva-lab-4 ---
+[INFO] Deleting C:\Users\Анна\IdeaProjects\lab-4\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ Muromtseva-lab-4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Анна\IdeaProjects\lab-4\src\main\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ Muromtseva-lab-4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Анна\IdeaProjects\lab-4\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ Muromtseva-lab-4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Анна\IdeaProjects\lab-4\src\main\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ Muromtseva-lab-4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ Muromtseva-lab-4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Анна\IdeaProjects\lab-4\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ Muromtseva-lab-4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Анна\IdeaProjects\lab-4\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ Muromtseva-lab-4 ---
+[INFO] Surefire report directory: C:\Users\Анна\IdeaProjects\lab-4\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ru.spb.herzen.ivt3.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ Muromtseva-lab-4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Анна\IdeaProjects\lab-4\src\main\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ Muromtseva-lab-4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ Muromtseva-lab-4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Анна\IdeaProjects\lab-4\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ Muromtseva-lab-4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ Muromtseva-lab-4 ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO]
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ Muromtseva-lab-4 ---
+[INFO] Building jar: C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-checkstyle-plugin:2.6:check (default) @ Muromtseva-lab-4 ---
+[INFO]
+[INFO]
+[INFO] --- maven-shade-plugin:2.4.2:shade (default) @ Muromtseva-lab-4 ---
+[INFO] Including org.kohsuke:wordnet-random-name:jar:1.3 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT.jar with C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: C:\Users\Анна\IdeaProjects\lab-4\dependency-reduced-pom.xml
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ Muromtseva-lab-4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Анна\IdeaProjects\lab-4\src\main\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ Muromtseva-lab-4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ Muromtseva-lab-4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Анна\IdeaProjects\lab-4\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ Muromtseva-lab-4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ Muromtseva-lab-4 ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO]
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ Muromtseva-lab-4 ---
+[INFO] Building jar: C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-checkstyle-plugin:2.6:check (default) @ Muromtseva-lab-4 ---
+[INFO]
+[INFO]
+[INFO] --- maven-shade-plugin:2.4.2:shade (default) @ Muromtseva-lab-4 ---
+[INFO] Including org.kohsuke:wordnet-random-name:jar:1.3 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT.jar with C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: C:\Users\Анна\IdeaProjects\lab-4\dependency-reduced-pom.xml
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ Muromtseva-lab-4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Анна\IdeaProjects\lab-4\src\main\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ Muromtseva-lab-4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ Muromtseva-lab-4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Анна\IdeaProjects\lab-4\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ Muromtseva-lab-4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ Muromtseva-lab-4 ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO]
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ Muromtseva-lab-4 ---
+[INFO] Building jar: C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-checkstyle-plugin:2.6:check (default) @ Muromtseva-lab-4 ---
+[INFO]
+[INFO]
+[INFO] --- maven-shade-plugin:2.4.2:shade (default) @ Muromtseva-lab-4 ---
+[INFO] Including org.kohsuke:wordnet-random-name:jar:1.3 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT.jar with C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: C:\Users\Анна\IdeaProjects\lab-4\dependency-reduced-pom.xml
+[INFO]
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ Muromtseva-lab-4 ---
+[INFO] Installing C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT.jar to C:\Users\Анна\.m2\repository\ru\spb\herzen\ivt3\Muromtseva-lab-4\1.0-SNAPSHOT\Muromtseva-lab-4-1.0-SNAPSHOT.jar
+[INFO] Installing C:\Users\Анна\IdeaProjects\lab-4\dependency-reduced-pom.xml to C:\Users\Анна\.m2\repository\ru\spb\herzen\ivt3\Muromtseva-lab-4\1.0-SNAPSHOT\Muromtseva-lab-4-1.0-SNAPSHOT.pom
+[INFO]
+[INFO] --- maven-site-plugin:3.0:site (default-site) @ Muromtseva-lab-4 ---
+[WARNING] Report plugin org.apache.maven.plugins:maven-project-info-reports-plugin has an empty version.
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[INFO] configuring report plugin org.apache.maven.plugins:maven-project-info-reports-plugin:2.8.1
+[INFO] Relativizing decoration links with respect to project URL: http://maven.apache.org
+[INFO] Rendering site with org.apache.maven.skins:maven-default-skin:jar:1.0 skin.
+[INFO] Generating "Dependencies" report    --- maven-project-info-reports-plugin:2.8.1
+[INFO] Generating "Dependency Convergence" report    --- maven-project-info-reports-plugin:2.8.1
+[INFO] Generating "Dependency Information" report    --- maven-project-info-reports-plugin:2.8.1
+[INFO] Generating "About" report    --- maven-project-info-reports-plugin:2.8.1
+[INFO] Generating "Plugin Management" report    --- maven-project-info-reports-plugin:2.8.1
+[INFO] Generating "Project Plugins" report    --- maven-project-info-reports-plugin:2.8.1
+[INFO] Generating "Project Summary" report    --- maven-project-info-reports-plugin:2.8.1
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ Muromtseva-lab-4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Анна\IdeaProjects\lab-4\src\main\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ Muromtseva-lab-4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ Muromtseva-lab-4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Анна\IdeaProjects\lab-4\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ Muromtseva-lab-4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ Muromtseva-lab-4 ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO]
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ Muromtseva-lab-4 ---
+[INFO] Building jar: C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-checkstyle-plugin:2.6:check (default) @ Muromtseva-lab-4 ---
+[INFO]
+[INFO]
+[INFO] --- maven-shade-plugin:2.4.2:shade (default) @ Muromtseva-lab-4 ---
+[INFO] Including org.kohsuke:wordnet-random-name:jar:1.3 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT.jar with C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: C:\Users\Анна\IdeaProjects\lab-4\dependency-reduced-pom.xml
+[INFO]
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ Muromtseva-lab-4 ---
+[INFO] Installing C:\Users\Анна\IdeaProjects\lab-4\target\Muromtseva-lab-4-1.0-SNAPSHOT.jar to C:\Users\Анна\.m2\repository\ru\spb\herzen\ivt3\Muromtseva-lab-4\1.0-SNAPSHOT\Muromtseva-lab-4-1.0-SNAPSHOT.jar
+[INFO] Installing C:\Users\Анна\IdeaProjects\lab-4\dependency-reduced-pom.xml to C:\Users\Анна\.m2\repository\ru\spb\herzen\ivt3\Muromtseva-lab-4\1.0-SNAPSHOT\Muromtseva-lab-4-1.0-SNAPSHOT.pom
+[INFO]
+[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ Muromtseva-lab-4 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 50.075s
+[INFO] Finished at: Thu Jan 14 14:50:12 MSK 2016
+[INFO] Final Memory: 26M/291M
+[INFO] ------------------------------------------------------------------------
